@@ -2,7 +2,6 @@ module Fastlane
   module Actions
     class ValidateX509Action < Action
       def self.run(params)
-      def self.run(params)
         certs_path = params[:certs_path]
         days_before_expiration  = params[:days_before_expiration].to_i * 86400
           Dir[File.expand_path "#{certs_path}/**/*.crt"].each{ |f| 
