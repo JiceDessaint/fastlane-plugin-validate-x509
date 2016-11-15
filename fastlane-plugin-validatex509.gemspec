@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/validate_x509/version'
+require 'fastlane/plugin/validatex509/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-validate_x509'
